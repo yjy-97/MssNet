@@ -66,7 +66,6 @@ function [deleted_slice_num] = delete_slice_N(file_list_name, num_not_delete)
         
     end
     
-    %% 输入
     % [deleted_name_list] = delete_slice_N('AD_gray_matter_Slices', 101)
     % [deleted_name_list] = delete_slice_N('NC_gray_matter_Slices', 101)
  
