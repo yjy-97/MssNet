@@ -42,7 +42,7 @@ def main():
     img = img.resize((224, 224),Image.ANTIALIAS)
 
     img_tensor = data_transform(img)
-    input_tensor = torch.unsqueeze(img_tensor, dim=0)  # 增加一个batch维度
+    input_tensor = torch.unsqueeze(img_tensor, dim=0)
     cam = GradCAM(model=net, target_layers=target_layers, use_cuda=False)
     grayscale_cam = cam(input_tensor=input_tensor)
 
