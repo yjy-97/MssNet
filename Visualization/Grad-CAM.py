@@ -36,7 +36,7 @@ def main():
         transforms.ToTensor(),
         transforms.Normalize(mean=[.5, 0.5, 0.5], std=[.5, 0.5, 0.5])])
 
-    img_path = r"MCIc_052_S_0952_slice_Z41.jpg"  # 这里是导入你需要测试图片
+    img_path = r"MCIc_052_S_0952_slice_Z41.jpg" 
     assert os.path.exists(img_path), "file: '{}' dose not exist.".format(img_path)
     img = Image.open(img_path).convert('RGB')
     img = img.resize((224, 224),Image.ANTIALIAS)
