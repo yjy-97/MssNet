@@ -1,5 +1,5 @@
 # MssNet
-MssNet: Early identification model of Alzheimer’s disease based on automatic region of interest extraction and spatial information interaction
+MssNet: Early Identification Model of Alzheimer’s Eisease Based on Automatic Region of Interest Extraction and Spatial Information Interaction
 
 # Preprocessing
 Please follow the steps below for data preprocessing:<br>
