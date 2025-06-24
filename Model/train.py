@@ -117,7 +117,7 @@ if __name__ == '__main__':
     parser.add_argument('--data-path', type=str,
                         default="/data/flower_photos")
 
-    parser.add_argument('--weights', type=str, default=r'/mnt/public/home/wangqx/Yejiayu/mri/ConvNeXt/convnext_base_1k_224_ema.pth',
+    parser.add_argument('--weights', type=str, default=r'',
                         help='initial weights path')
 
     parser.add_argument('--freeze-layers', type=bool, default=False)
